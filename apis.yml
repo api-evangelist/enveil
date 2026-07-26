@@ -1,8 +1,30 @@
 aid: enveil
 name: Enveil
-description: Enveil is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Enveil is a privacy-enhancing technologies (PETs) company whose ZeroReveal
+  platform lets organizations securely use, search, and analyze data while it is
+  being processed, without moving, replicating, or exposing it. Built on
+  homomorphic encryption, secure multiparty computation, and trusted execution
+  environments, ZeroReveal Search delivers encrypted search, analytics, and
+  watchlisting as a point-to-point proxy layer, while ZeroReveal Machine Learning
+  provides encrypted training (SMPC-based federated learning) and encrypted model
+  evaluation. Enveil serves financial services, healthcare and insurance,
+  government and public sector, and secure-AI use cases spanning cross-silo data
+  collaboration, fraud detection, secure data monetization, and privacy-preserving
+  AI. The company was surfaced as a portfolio company of bloomberg-beta.
 url: https://raw.githubusercontent.com/api-evangelist/enveil/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.enveil.com/wp-content/uploads/2024/01/enveil-logo.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Privacy Enhancing Technologies
+- Homomorphic Encryption
+- Secure Multiparty Computation
+- Data Security
+- Encrypted Search
+- Machine Learning
+- Secure AI
+- Data Collaboration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.enveil.com/
+- type: About
+  url: https://www.enveil.com/about-us/
+- type: Blog
+  url: https://www.enveil.com/news/
+- type: Support
+  url: https://www.enveil.com/contact/
+- type: PrivacyPolicy
+  url: https://www.enveil.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/enveil/
+- type: Twitter
+  url: https://twitter.com/enveil_inc
+- type: DomainSecurity
+  url: security/enveil-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
