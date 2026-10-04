@@ -52,7 +52,7 @@ tags:
 - Secure Multiparty Computation
 - Data Security
 - Encrypted Search
-- Machine-Learning
+- Machine Learning
 - Secure AI
 - Data Collaboration
 tags_raw:
@@ -65,6 +65,7 @@ tags_raw:
 - Machine Learning
 - Secure AI
 - Data Collaboration
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
